@@ -51,12 +51,15 @@ public class RegisterScreen extends AppCompatActivity {
         String surname = etSurname.getText().toString();
         String age = etAge.getText().toString();
 
+        // https://script.google.com/macros/s/AKfycbyx86loZ9wvITPLCD6h-6f2RJryj8ZZpsFt9hvZ960F92nV9WSmUboBlS7h8Lu9puSI
+
+        //                        .baseUrl("https://script.google.com/macros/s/AKfycbyJfkyxt5hyccVQigB2ybYvmpBaTJhI2gt22VUY4JOEmGRw9ddzTvaBzIxhGGIlMIcZ/")
         AsyncTask.execute(() -> {
             try {
                 Retrofit retrofit = new Retrofit.Builder()
                         .addConverterFactory(ScalarsConverterFactory.create())
                         .addConverterFactory(GsonConverterFactory.create())
-                        .baseUrl("https://script.google.com/macros/s/AKfycbyJfkyxt5hyccVQigB2ybYvmpBaTJhI2gt22VUY4JOEmGRw9ddzTvaBzIxhGGIlMIcZ/")
+                        .baseUrl("https://script.google.com/macros/s/AKfycbyx86loZ9wvITPLCD6h-6f2RJryj8ZZpsFt9hvZ960F92nV9WSmUboBlS7h8Lu9puSI/")
                         .build();
 
                 IGoogleSheets iGoogleSheets = retrofit.create(IGoogleSheets.class);

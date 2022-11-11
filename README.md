@@ -6,3 +6,12 @@
 
 
 <img width="1386" alt="Screen Shot 2022-09-16 at 20 02 02" src="https://user-images.githubusercontent.com/38077519/190834408-044cddbc-1d8f-4959-94de-c95702efd0af.png">
+
+
+Source:
+
+Consultando e Insertando datos con GOOGLE SHEETS y ANDROID STUDIO [1/2]
+https://www.youtube.com/watch?v=ucb8IcEQc10
+
+Consultando e Insertando datos con GOOGLE SHEETS y ANDROID STUDIO [2/2]
+https://www.youtube.com/watch?v=_IDOt58suio
